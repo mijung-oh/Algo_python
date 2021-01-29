@@ -2,13 +2,21 @@ import sys
 s = sys.stdin.readline()
 M, N = map(int, s.split())
 
-def is_Prime(number):
-    for num in range(2, number//2+1):
-        if number % num == 0:
-            return False
+T = int(N**0.5)
 
-    return True
+check_list = [True]*N
+# 0과 1은 소수가 아님
+check_list[0] = False
+check_list[1] = False
 
-for i in range(M, N+1):
-    if is_Prime(i):
-        print(i)
+for i in range(2, T+1): # 2 3 4
+    if check_list[i] == True:
+        for j in range(i+i, N, i): # 배수들에 다 False 넣기
+            check_list[j]=False
+
+for idx, c in enumerate(check_list):
+    if M <= idx <= N and c == True:
+        print(idx)
+
+
+
