@@ -7,9 +7,10 @@ def isTrue(arr):
         sub_sum = 0
         for j in range(n+1):
             if i & (1 << j):
-                sub_sum += arr[j]
-        if sub_sum == 0:
-            return True 
-    return False
+                print(i, j)
+                # sub_sum += arr[j]
+    #     if sub_sum == 0:
+    #         return True 
+    # return False
 
 print(isTrue(arr))
