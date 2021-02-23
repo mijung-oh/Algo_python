@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="573a11f0-1ad1-4454-ab8b-72466b878a73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Algo_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algo_Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10163.py" beforeDir="false" afterPath="$PROJECT_DIR$/10163.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10163.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10989.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1244.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1449.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1929.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1978.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019_KAKAO_WINTER.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021KAKAO.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021_kakao_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2635_수 이어가기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2669_직사각형면적.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2751.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2753.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2839.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2908.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4344.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4673.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7568_덩치.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8958.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pika.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algo_SWEA/0218/쇠막대기.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -23,47 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algo_SWEA/0218/쇠막대기_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7568_덩치.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2669_직사각형면적.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2635_수 이어가기.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1244.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="57">
+              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -71,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algo_SWEA/0218/문자열타이핑.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="874">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -81,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/Algo_SWEA/0218/글자수.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -120,10 +101,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="513" />
-    <option name="y" value="77" />
-    <option name="width" value="1392" />
-    <option name="height" value="888" />
+    <option name="x" value="512" />
+    <option name="y" value="76" />
+    <option name="width" value="1393" />
+    <option name="height" value="889" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -153,7 +134,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PYTHON" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -173,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1244">
+  <component name="RunManager" selected="Python.쇠막대기_v2">
     <configuration name="1244" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algo_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,11 +269,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.쇠막대기_v2" />
         <item itemvalue="Python.1244" />
         <item itemvalue="Python.2635_수 이어가기" />
         <item itemvalue="Python.2669_직사각형면적" />
         <item itemvalue="Python.7568_덩치" />
-        <item itemvalue="Python.쇠막대기_v2" />
       </list>
     </recent_temporary>
   </component>
@@ -310,14 +291,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="411" y="62" width="1113" height="710" extended-state="0" />
+    <frame x="410" y="61" width="1114" height="711" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.328585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3277623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.6128472" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.6117851" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
@@ -335,15 +316,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/1244.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="s" language="Python" />
@@ -370,20 +342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algo_SWEA/0218/글자수.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algo_SWEA/0218/문자열타이핑.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
@@ -429,13 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algo_SWEA/0218/쇠막대기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algo_SWEA/0216/어디에단어.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -450,10 +401,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algo_SWEA/0218/쇠막대기_v2.py">
+    <entry file="file://$PROJECT_DIR$/Algo_SWEA/0218/쇠막대기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state>
+          <caret selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -478,10 +429,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Algo_SWEA/0218/문자열타이핑.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algo_SWEA/0218/글자수.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1244.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="152">
           <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algo_SWEA/0218/쇠막대기_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
