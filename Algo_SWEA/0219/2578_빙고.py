@@ -4,8 +4,34 @@ bingo = []
 bingo_check = [[0 for x in range(5)] for y in range(5)]
 # target = []
 
+def isCross():
+    count_cross1 = 0
+    for i in range(5):
+        for j in range(5):
+            if i == j:
+                if bingo_check[i][j] == 1:
+                    count_cross1 += 1
+                else:
+                    return False
+    if count_cross1 == 5:
+        return True
+    return False
+
+def isCross2():
+    count_cross2 = 0
+    for i in range(5):
+        for j in range(5):
+            if i == 4-j:
+                if bingo_check[i][j] == 1:
+                    count_cross2 += 1
+                else:
+                    return False
+    if count_cross2 == 5:
+        return True
+    return False
+
 def isbingo():
-    count_r = count_c = count_cross1 = count_cross2 = 0
+    count_r = count_c = 0
     # 전체 그어진 선 개수
     total = 0
     # 행
@@ -14,8 +40,10 @@ def isbingo():
             if bingo_check[i][j] == 1:
                 count_r += 1
         if count_r == 5:
+            count_r = 0
             total += 1
-        count_r = 0
+        else:
+            count_r = 0
     # 열
     for i in range(5):
         for j in range(5):
@@ -23,24 +51,16 @@ def isbingo():
                 # print(i,j)
                 count_c += 1
         if count_c == 5:
+            count_c = 0
             total += 1
-        count_c = 0
+        else:
+            count_c = 0
 
-    for i in range(5):
-        for j in range(5):
-            if i == j and bingo_check[i][j] == 1:
-                count_cross1 += 1
-        if count_cross1 == 5:
-            total += 1
-            count_cross1 = 0
-
-    for i in range(5):
-        for j in range(5):
-            if i == 4-j and bingo_check[i][j] == 1:
-                count_cross2 += 1
-        if count_cross2 == 5:
-            total += 1
-            count_cross2 = 0
+    # 대각선
+    if isCross():
+        total += 1
+    if isCross2():
+        total += 1
     return total
 
 def isTarget(target):
@@ -66,7 +86,7 @@ for i in range(5):
     for j in range(5):
         isTarget(target[j])
         result += 1
-        if isbingo() == 3:
+        if isbingo() >= 3:
             flag = 1
             break
     if flag:
