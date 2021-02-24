@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1627a1ab-fd14-4d8b-ad38-0bab60bf9ba6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10163.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10989.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1244.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1449.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1929.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1978.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2019_KAKAO_WINTER.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2021KAKAO.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2021_kakao_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2635_수 이어가기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2669_직사각형면적.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2751.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2753.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2839.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2908.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4344.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4673.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../7568_덩치.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8958.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pika.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/원영오빠_괄호.py" beforeDir="false" afterPath="$PROJECT_DIR$/원영오빠_괄호.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,20 +39,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2304_창고 다각형.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
+            <state relative-caret-position="217">
               <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/원영오빠_괄호.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -99,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="781" />
     <option name="y" value="28" />
     <option name="width" value="1054" />
@@ -129,7 +101,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algo_SWEA/0224" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -282,7 +254,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24937965" />
@@ -293,8 +264,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26988637" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3979239" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26988637" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39772728" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -368,17 +339,17 @@
     <entry file="file://$PROJECT_DIR$/2564_경비원.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/2304_창고 다각형.py">
+    <entry file="file://$PROJECT_DIR$/원영오빠_괄호.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="274">
+          <caret line="63" column="57" lean-forward="true" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/원영오빠_괄호.py">
+    <entry file="file://$PROJECT_DIR$/2304_창고 다각형.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="217">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
         </state>
       </provider>
     </entry>
