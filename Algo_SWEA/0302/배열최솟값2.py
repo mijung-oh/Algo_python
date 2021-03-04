@@ -23,6 +23,7 @@ def powerset(N, k, arr, visited, sel, sub):
         powerset(N, k+1, arr, visited, sel, sub+BRD[k][arr[i]])
         visited[i]=0
 
+
 for tc in range(1, T+1):
     N = int(input())
     # 순열 모음
