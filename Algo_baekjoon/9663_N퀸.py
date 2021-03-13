@@ -10,9 +10,10 @@ def dfs(r):
         return True
     # 해당 행의 열을 탐색함
     for i in range(N):
-        #
+        # 왼쪽 위, 위에, 오른쪽 위 
+        for j in range(3):
+            if BRD[i][]
 
-            
 
     
     
