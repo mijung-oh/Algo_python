@@ -9,8 +9,8 @@ def mulList(a, b):
     for i in range(len(a)):
         result += a[i] * b[i]
     return result
-
-
+   
+# 주석
 def mulMatrix(a, b):
     result = []
     for i in range(len(a)):
