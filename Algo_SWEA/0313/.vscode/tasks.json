@@ -1,64 +1,87 @@
 {
 	"version": "2.0.0",
+	"runner": "terminal",
+	"type": "shell",
+	"echoCommand": true,
+	"presentation" : { "reveal": "always" },
 	"tasks": [
-		{
-			"type": "cppbuild",
-			"label": "C/C++: g++.exe í™œì„± íŒŒì¼ ë¹Œë“œ",
-			"command": "C:/mingw64/bin/g++.exe",
-			"args": [
-				"-g",
-				"${file}",
-				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
-			],
-			"options": {
-				"cwd": "C:/mingw64/bin"
+				//C++ ÄÄÆÄÀÏ
+				{
+					"label": "save and compile for C++",
+					"command": "g++",
+					"args": [
+							"${file}",
+							"-o",
+							"${fileDirname}/${fileBasenameNoExtension}"
+					],
+					"group": "build",
+
+					//ÄÄÆÄÀÏ½Ã ¿¡·¯¸¦ ÆíÁı±â¿¡ ¹İ¿µ
+					//Âü°í:   https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
+
+					"problemMatcher": {
+							"fileLocation": [
+									"relative",
+									"${workspaceRoot}"
+							],
+							"pattern": {
+									// The regular expression. 
+								 //Example to match: helloWorld.c:5:3: warning: implicit declaration of function 'prinft'
+									"regexp": "^(.*):(\\d+):(\\d+):\\s+(warning error):\\s+(.*)$",
+									"file": 1,
+									"line": 2,
+									"column": 3,
+									"severity": 4,
+									"message": 5
+							}
+					}
 			},
-			"problemMatcher": [
-				"$gcc"
-			],
-			"group": "build",
-			"detail": "ì»´íŒŒì¼ëŸ¬: C:/mingw64/bin/g++.exe"
-		},
-		{
-			"type": "cppbuild",
-			"label": "C/C++: g++.exe í™œì„± íŒŒì¼ ë¹Œë“œ",
-			"command": "C:/mingw64/bin/g++.exe",
-			"args": [
-				"-g",
-				"${file}",
-				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
-			],
-			"options": {
-				"cwd": "C:/mingw64/bin"
+			//C ÄÄÆÄÀÏ
+			{
+					"label": "save and compile for C",
+					"command": "gcc",
+					"args": [
+							"${file}",
+							"-o",
+							"${fileDirname}/${fileBasenameNoExtension}"
+					],
+					"group": "build",
+
+					//ÄÄÆÄÀÏ½Ã ¿¡·¯¸¦ ÆíÁı±â¿¡ ¹İ¿µ
+					//Âü°í:   https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
+
+					"problemMatcher": {
+							"fileLocation": [
+									"relative",
+									"${workspaceRoot}"
+							],
+							"pattern": {
+									// The regular expression. 
+								 //Example to match: helloWorld.c:5:3: warning: implicit declaration of function 'prinft'
+									"regexp": "^(.*):(\\d+):(\\d+):\\s+(warning error):\\s+(.*)$",
+									"file": 1,
+									"line": 2,
+									"column": 3,
+									"severity": 4,
+									"message": 5
+							}
+					}
 			},
-			"problemMatcher": [
-				"$gcc"
-			],
-			"group": "build",
-			"detail": "ì»´íŒŒì¼ëŸ¬: C:/mingw64/bin/g++.exe"
-		},
-		{
-			"type": "cppbuild",
-			"label": "C/C++: cl.exe í™œì„± íŒŒì¼ ë¹Œë“œ",
-			"command": "cl.exe",
-			"args": [
-				"/Zi",
-				"/EHsc",
-				"/nologo",
-				"/Fe:",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe",
-				"${file}"
-			],
-			"options": {
-				"cwd": "${workspaceFolder}"
-			},
-			"problemMatcher": [
-				"$msCompile"
-			],
-			"group": "build",
-			"detail": "ì»´íŒŒì¼ëŸ¬: cl.exe"
-		}
+			// ¹ÙÀÌ³Ê¸® ½ÇÇà(Ubuntu)
+			// {
+			//     "label": "execute",
+			//     "command": "${fileDirname}/${fileBasenameNoExtension}",
+			//     "group": "test"
+			// }
+			// ¹ÙÀÌ³Ê¸® ½ÇÇà(Windows)
+			{
+					"label": "execute",
+					"command": "cmd",
+					"group": "test",
+					"args": [
+							"/C", "${fileDirname}\\${fileBasenameNoExtension}"
+					]
+	
+			}
 	]
 }
