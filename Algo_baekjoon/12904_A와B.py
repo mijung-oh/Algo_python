@@ -19,22 +19,24 @@ T = list(map(str, input()))
 #     return False
 
 # 역방향 T -> S
-# def change(t):
-#     if t == S:
-#         return True
-#     if len(t) >= len(S):
-#         if t[-1] == 'A':
-#             if change(t[:len(t)-1]):
-#                 return True
-#         elif t[-1] == 'B':
-#             t = t[:len(t)-1]
-#             t = t[::-1]
-#             if change(t):
-#                 return True
-#     return False
+def change(t):
+    if t == S:
+        return True
+    if len(t) >= len(S):
+        if t[-1] == 'A':
+            if change(t[:len(t)-1]):
+                return True
+        elif t[-1] == 'B':
+            t = t[:len(t)-1]
+            t = t[::-1]
+            if change(t):
+                return True
+    return False
 
-# print(S, T)
-# 구글링.... 후 ㅠㅠ..
+print(int(change(T)))
+
+print(S, T)
+구글링.... 후 ㅠㅠ..
 while len(S) != len(T):
     # print(T)
     if T[-1] == 'A':
