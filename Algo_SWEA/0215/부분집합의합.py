@@ -13,7 +13,6 @@ def isZero(n, k, arr):
             print(total)
             count += 1
     return count
-
 for t in range(1 , T+1):
     arr = []
     N, K = map(int, input().split())
