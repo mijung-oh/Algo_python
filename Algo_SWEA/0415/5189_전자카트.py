@@ -1,9 +1,12 @@
 T = int(input())
 
 # 순열
-
+# 처음과 끝은 항상 1이기 때문에
+# 1로 시작하는 순열을 구한 뒤 뒤에 1을 붙여주어서
+# 해당 값을 더해준다.
 def perm(n, k):
     global arr, min_sum
+    
     if k == n:
         total = 0
         arr2 = arr + [1]
@@ -12,6 +15,7 @@ def perm(n, k):
         if total < min_sum:
             min_sum = total
 
+    # 순열구하는 코드
     else:
         for i in range(k, n):
             arr[k], arr[i] = arr[i], arr[k]
