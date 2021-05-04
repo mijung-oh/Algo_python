@@ -47,11 +47,13 @@ for tc in range(1, T+1):
             continue
         if len(visited_row) and t in visited_row:
             continue
+
         visited_row.append(t)
         # 16진수 코드를 2진수로 변환한다.
         binary = hex_to_bin(t)
         lst = []
         f1 = f2 = f3 = 0
+        
         for i in range(len(binary)-1, -1, -1):
             if f2==0 and f3==0 and binary[i] == '1':
                 f1 += 1
@@ -66,9 +68,8 @@ for tc in range(1, T+1):
                 f2 //= minV
                 f3 //= minV                
                 lst.append(str(decode[str(f3) + str(f2) + str(f1)]))
-
                 f1 = f2 = f3 = 0
-        # print(lst)
+                
         lst = lst[::-1]
         for i in range(0, len(lst), 8):
             if len(v) and ''.join(lst[i:i+8]) in v:
