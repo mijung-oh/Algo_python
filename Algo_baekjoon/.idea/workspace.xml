@@ -5,7 +5,97 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1627a1ab-fd14-4d8b-ad38-0bab60bf9ba6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo_programmers/섬연결하기_greedy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo_programmers/섬연결하기_greedy.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,91 +109,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2477_참외밭.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10158_개미.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10157_자리배정.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2564_경비원.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Algo_SWEA/0224/2805_농작물수확.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/15649_N과M.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/9663_N퀸.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2206_벽부수고이동.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/2630_색종이만들기.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/7562_나이트의이동.py">
+        <entry file="file://$PROJECT_DIR$/2571_색종이.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2304_창고 다각형.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="570">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -138,10 +152,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -152,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,11 +178,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algo_SWEA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -182,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.7562_나이트의이동">
+  <component name="RunManager" selected="Python.2571_색종이">
     <configuration name="10157_자리배정" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algo_baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,27 +239,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2477_참외밭" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algo_baekjoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2477_참외밭.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="2564_경비원" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algo_baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,6 +252,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2564_경비원.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2571_색종이" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algo_baekjoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2571_색종이.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,19 +303,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.2477_참외밭" />
       <item itemvalue="Python.10158_개미" />
       <item itemvalue="Python.10157_자리배정" />
       <item itemvalue="Python.2564_경비원" />
       <item itemvalue="Python.7562_나이트의이동" />
+      <item itemvalue="Python.2571_색종이" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2571_색종이" />
         <item itemvalue="Python.7562_나이트의이동" />
         <item itemvalue="Python.2564_경비원" />
         <item itemvalue="Python.10157_자리배정" />
         <item itemvalue="Python.10158_개미" />
-        <item itemvalue="Python.2477_참외밭" />
       </list>
     </recent_temporary>
   </component>
@@ -319,9 +333,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="0" width="782" height="831" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974359" weight="0.24563758" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974359" weight="0.24520819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50256413" side_tool="true" weight="0.24907063" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -374,6 +388,11 @@
           <line>42</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2571_색종이.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -385,11 +404,17 @@
         <watch expression="r" language="Python" />
         <watch expression="x+dx[i]" language="Python" />
         <watch expression="y+dy[i]" language="Python" />
+        <watch expression="pre_row" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>pre_row</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>y+dy[i]</expression-string>
         <language-id>Python</language-id>
@@ -480,6 +505,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2304_창고 다각형.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7562_나이트의이동.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2206_벽부수고이동.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9663_N퀸.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15649_N과M.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2564_경비원.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -494,38 +554,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15649_N과M.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/2630_색종이만들기.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/2304_창고 다각형.py">
+    <entry file="file://$PROJECT_DIR$/2571_색종이.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9663_N퀸.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2206_벽부수고이동.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7562_나이트의이동.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="570">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
