@@ -9,8 +9,6 @@ def prim(cur, graph, U, D):
         for i in graph[cur]:
             if U[i[1]] == 0 and D[i[1]] > i[0]:
                 D[i[1]] = i[0]
-                print(i, cost)
-                print(D)
                 heapq.heappush(heap, (i[0], i[1]))
     return sum(D)
 
