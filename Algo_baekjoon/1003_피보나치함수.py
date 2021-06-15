@@ -21,8 +21,6 @@ for tc in range(T):
     n = int(input())
     zero = [0] * (n+1)
     one = [0] * (n+1)
-0 1 2 3 4 5 6
-
 
     fibo(n)
     print(zero[n], one[n])
