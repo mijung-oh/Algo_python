@@ -15,7 +15,7 @@ elif N>1:
         # 1번 + 3번
         # 2번+3번
         # 3번을 선택하지 않는 경우
-        dp[i] = max(dp[i-1], dp[i-2] + pho[i], dp[i-3] + pho[i-1] + pho[i])
+        dp[n] = max(dp[n-1], dp[n-2] + pho[n], dp[n-3] + pho[n-1] + pho[n])
 
 print(dp[N])
                                                                                                                                                                                                                                                                                                                                                                                                            
