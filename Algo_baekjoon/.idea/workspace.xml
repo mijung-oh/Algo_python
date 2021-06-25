@@ -5,97 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1627a1ab-fd14-4d8b-ad38-0bab60bf9ba6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.in.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/bard/bard.out.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.in.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/buba/buba.out.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.in.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/crtalo/crtalo.out.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.in.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/radio/radio.out.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo_programmers/섬연결하기_greedy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo_programmers/섬연결하기_greedy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo_SWEA/0414/순열.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1149_RGB거리.py" beforeDir="false" afterPath="$PROJECT_DIR$/1149_RGB거리.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,16 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2630_색종이만들기.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2571_색종이.py">
+        <entry file="file://$PROJECT_DIR$/3085_사탕게임.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="217">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
@@ -149,12 +56,14 @@
         <option value="$PROJECT_DIR$/9663_N퀸.py" />
         <option value="$PROJECT_DIR$/2206_벽부수고이동.py" />
         <option value="$PROJECT_DIR$/7562_나이트의이동.py" />
+        <option value="$PROJECT_DIR$/../Algo_Codility/task3.py" />
+        <option value="$PROJECT_DIR$/3085_사탕게임.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -196,49 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2571_색종이">
-    <configuration name="10157_자리배정" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algo_baekjoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10157_자리배정.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="10158_개미" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algo_baekjoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10158_개미.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.3085_사탕게임">
     <configuration name="2564_경비원" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algo_baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,6 +148,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="3085_사탕게임" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algo_baekjoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3085_사탕게임.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="7562_나이트의이동" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algo_baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -302,20 +190,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algo_baekjoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Algo_Codility" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Algo_Codility/task3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.10158_개미" />
-      <item itemvalue="Python.10157_자리배정" />
       <item itemvalue="Python.2564_경비원" />
       <item itemvalue="Python.7562_나이트의이동" />
       <item itemvalue="Python.2571_색종이" />
+      <item itemvalue="Python.task3" />
+      <item itemvalue="Python.3085_사탕게임" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3085_사탕게임" />
+        <item itemvalue="Python.task3" />
         <item itemvalue="Python.2571_색종이" />
         <item itemvalue="Python.7562_나이트의이동" />
         <item itemvalue="Python.2564_경비원" />
-        <item itemvalue="Python.10157_자리배정" />
-        <item itemvalue="Python.10158_개미" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +242,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974359" weight="0.24520819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -351,7 +261,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Run" order="3" weight="0.67867035" />
-      <window_info anchor="right" id="Debug" order="4" weight="0.46644294" />
+      <window_info anchor="right" id="Debug" order="4" weight="0.60872483" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -390,8 +300,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/2571_색종이.py</url>
-          <line>20</line>
+          <line>18</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Algo_Codility/task3.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3085_사탕게임.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -405,11 +325,41 @@
         <watch expression="x+dx[i]" language="Python" />
         <watch expression="y+dy[i]" language="Python" />
         <watch expression="pre_row" language="Python" />
+        <watch expression="visit" language="Python" />
+        <watch expression="maxTotal" language="Python" />
+        <watch expression="new_col" language="Python" />
+        <watch expression="left" language="Python" />
+        <watch expression="right" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>right</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>left</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new_col</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>maxTotal</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>visit</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>pre_row</expression-string>
         <language-id>Python</language-id>
@@ -432,31 +382,6 @@
       </expression>
       <expression>
         <expression-string>x==r and 0&lt;=y&lt;=c</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>d</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>pre</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(p,q)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>max_height &lt; lst[j][1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>lst[j][1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -559,8 +484,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2571_색종이.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Algo_Codility/task3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3085_사탕게임.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
