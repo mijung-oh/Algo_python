@@ -22,8 +22,6 @@ def bruteforce(visited, r, c):
                 dq.append((nextR,nextC))
                 visited[nextR][nextC] = 1
     
-    for i in range(8):
-        print(*brd[i])
     return cnt
     
     
@@ -40,6 +38,7 @@ for r in range(len(BRD)-8+1): # i: 0 1 2
         result = bruteforce(visited, r, c)
         if result < min_cnt:
             min_cnt = result
+            print("최소", min_cnt)
     
 print(min_cnt)
     
