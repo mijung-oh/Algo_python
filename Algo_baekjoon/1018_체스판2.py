@@ -14,14 +14,17 @@ def bruteforce(visited, r, c):
         for d in [(0,1), (1,0)]:
             nextR = curR + d[0]
             nextC = curC + d[1]
+            if r <= nextR < r+8 and c <= nextC < c+8  and not visited[nextR][nextC]: 
+                visited[nextR][nextC] = 1
+                dq.append((nextR, nextC))
+
             if r <= nextR < r+8 and c <= nextC < c+8 and brd[curR][curC] == brd[nextR][nextC]:
                 brd[nextR][nextC] = 'B' if brd[curR][curC] == 'W' else 'W'
                 cnt += 1
-                print("?")
-            if r <= nextR < r+8 and c <= nextC < c+8 and not visited[nextR][nextC]:
-                dq.append((nextR,nextC))
-                visited[nextR][nextC] = 1
-    
+                # visited[nextR][nextC] = 1
+            # dq.append((nextR,nextC))
+    for i in range(len(BRD)):
+        print(*BRD[i])
     return cnt
     
     
