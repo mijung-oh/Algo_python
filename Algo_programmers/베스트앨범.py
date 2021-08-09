@@ -20,7 +20,7 @@ def solution(genres, plays):
         for idx, value in enumerate(genres):
             if value == genre[1]:
                 genres_cnt2.append([plays[idx], idx, genre[1]])
-        # 재생 횟구가 같을 경우 index가 낮은 노래 선택
+        # 재생 횟수가 같을 경우 index가 낮은 노래 선택
         genres_cnt2.sort(key=lambda x : (-x[0], x[1]))
         print(genres_cnt2)
         # 각 장르별로 2개씩 선택
