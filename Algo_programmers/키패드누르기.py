@@ -27,8 +27,8 @@ def solution(numbers, hand):
             cur = "R"
             right_loc = phone[str(number)]
         else:
-            left_d = abs(phone[str(number)][0] - left_loc[0])  + abs(phone[str(number)][1] - left_loc[1]) 
-            right_d = abs(phone[str(number)][0] - right_loc[0])  + abs(phone[str(number)][1] - right_loc[1]) 
+            left_d = (phone[str(number)][0] - left_loc[0])**2  + (phone[str(number)][1] - left_loc[1])**2
+            right_d = (phone[str(number)][0] - right_loc[0])**2  + (phone[str(number)][1] - right_loc[1])**2
             print(number, left_d, right_d)
             if left_d > right_d:
                 cur = "R"
