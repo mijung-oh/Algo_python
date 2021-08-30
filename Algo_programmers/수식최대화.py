@@ -20,7 +20,7 @@ def counter(pre, post, op):
 
 
 def two(numbers, prio, set_prio):
-    maxV = -1
+    maxV = -1 
     stack = []
     queue = deque()
 
@@ -31,6 +31,7 @@ def two(numbers, prio, set_prio):
             stack.append(numbers[i])
             stack.append(prio[i])
         stack.append(numbers[-1])
+
         while stack:
             # print(stack, queue)
             if len(stack) == 1:
