@@ -3,8 +3,9 @@ N = int(input())
 ingredients = []
 for n in range(N):
     ingredients.append(tuple(map(int, input().split())))
+    # [(3,8), (5,8)]
 
-min_gap = 0xffffffff
+min_gap = 1000000000
 
 
 def combi(n):
