@@ -23,9 +23,12 @@ def combi(n, m):
         for j in range(n):
             if i & 1<<j:
                 t.append(j)
+                
         if len(t) == m:
             result.append(t)
     return result
+
+
 
 min_distance = 0xffffffff
 # 각각의 치킨 집을 돌면서 
