@@ -10,15 +10,6 @@ roma = {
     "V": 5,
     "I": 1
 }
-roma_cnt = {
-    "M": 0,
-    "D": 0,
-    "C": 0,
-    "L": 0,
-    "X": 0,
-    "V": 0,
-    "I": 0
-}
 small_first = {
     "IV": 4,
     "IX": 9,
@@ -27,7 +18,6 @@ small_first = {
     "CD": 400,
     "CM": 900
 }
-roma_list = [[1000, "M", 0], [500, "D", 0], [100, "C", 0], [50, "L", 0], [10, "X", 0], [5, "V", 0], [1, "I", 0]]
 
 # 아라비아숫자로 변경하기
 def charToNumber(a):
@@ -39,7 +29,7 @@ def charToNumber(a):
             sub_sum += small_first[a[i:i+2]]
             i += 2
         else:
-            sub_sum += roma[a[i]][0]
+            sub_sum += roma[a[i]]
             i += 1
     return sub_sum
     
@@ -47,15 +37,13 @@ def charToNumber(a):
 # 로마 숫자로 변경하기
 def NumberToChar(n):
     result = ""
-    cnt = { "M": 0, "I": 0, "X": 0, "C": 0}
-
     string_n = str(n)
-    for i in range(len(string_n)):
+    for i in range(len(string_n)): # 2493 => 2000 400 90 3
         curV = int(string_n[i]) * (10 ** (len(string_n) - 1 - i))
         check = 1
         # 해당 숫자가 로마숫자인 경우
         for key, value in roma.items():
-            if curV == value[0]:
+            if curV == value:
                 result += key
                 check = 0
                 break
@@ -69,30 +57,37 @@ def NumberToChar(n):
         
         # 둘 다 아닌 경우, 로마숫자 여러개로 만든다.
         if check:
-            if curV >= 1000:
-                if curV // 1000 > 3:
-                    result += "M" * 3
-                    result += "D" * (curV//1000 - 3) * 2
+            if curV >= 1000: 
+                result += "M" * (curV // 1000)
+
             elif curV >= 500:
                 result += "D"
-                if (curV - 500) // 100 < 4:
-                    result += "C" * ((curV - 500) // 100)
-                # 500 + 400
-                else:
-                    result += "CD"
+                result += "C" * ((curV - 500) // 100)
+
             elif curV >= 100:
-                
+                result += "C" * (curV // 100)
+
+            elif curV >= 50:
+                result += "L"
+                result += "X" * ((curV - 50) // 10)
+            
+            elif curV >= 10:
+                result += "X" * (curV // 10)
+            
+            elif curV >= 5:
+                result += "V"
+                result += (curV - 5) * "I"
+            else:
+                result += curV * "I"
+
+
                     
     return result
                 
-
-        
-        
-    
-    return result
-
         
 
 a_sum = charToNumber(a)
 b_sum = charToNumber(b)
 total_sum = a_sum + b_sum
+print(total_sum)
+print(NumberToChar(total_sum))
