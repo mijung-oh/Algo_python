@@ -13,11 +13,12 @@ lst = list(map(int, input().split()))
 answer = [0] * N
 pointer = 0
 while pointer < len(lst) - 1:
-    print(stack, "답", answer, pointer)
+    # print(stack, "답", answer, pointer)
     if lst[pointer] < lst[pointer + 1]:
         # 오큰수를 찾음
         maxV = lst[pointer + 1]
         # stack을 돌면서 더 작으면 answer값 바꾸고 pop
+        print(stack)
         for i in range(len(stack)-1, -1, -1):
             if lst[stack[i]] >= maxV:
                 break
@@ -30,5 +31,6 @@ while pointer < len(lst) - 1:
 for i in stack:
     answer[i] = -1
 
+print(answer)
 print(*answer)
     
