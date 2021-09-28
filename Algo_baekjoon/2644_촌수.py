@@ -36,3 +36,17 @@ if b in result:
     print(len(result) - 1)
 else:
     print("-1")
+
+
+'''
+반례
+5
+3 4
+4
+2 3
+3 4
+1 2
+4 5
+
+Q.. result.pop()이 어떻게 작동되는건지 공부하기
+'''
