@@ -16,8 +16,9 @@ for o in order:
             c -= 1
             continue
         # 주사위 change
-        ju[0], ju[3] = ju[3], ju[0]
+        ju[2], ju[5] = ju[5], ju[2]
         ju[2], ju[3] = ju[3], ju[2] 
+        ju[0], ju[2] = ju[2], ju[0]
 
         if BRD[r][c] == 0:
             # 주사위 바닥에 있는 수가 칸에 복사된다.
@@ -33,6 +34,7 @@ for o in order:
             c += 1
             continue
         # 주사위 change
+        ju[3], ju[5] = ju[5], ju[3]
         ju[2], ju[3] = ju[3], ju[2]
         ju[0], ju[3] = ju[3], ju[0]
 
@@ -52,8 +54,8 @@ for o in order:
 
         # 주사위 change
         ju[0], ju[1] = ju[1], ju[0]
-        ju[1], ju[4] = ju[4], ju[1]
-        ju[1], ju[5] = ju[5], ju[1]
+        ju[0], ju[4] = ju[4], ju[0]
+        ju[4], ju[5] = ju[5], ju[4]
 
         if BRD[r][c] == 0:
             # 주사위 바닥에 있는 수가 칸에 복사된다.
