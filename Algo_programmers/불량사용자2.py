@@ -24,6 +24,7 @@ def dfs(user_id, banned_id, cur, visited, state):
                 state.pop()
     return
 
+
 def solution(user_id, banned_id):
     global result2
 
