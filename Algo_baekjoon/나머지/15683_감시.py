@@ -1,7 +1,20 @@
 N, M = map(int, input().split())
+min_size = N * M
 
 BRD = []
 for i in range(N):
     BRD.append(list(map(int, input().split())))
-# cctv의 번호에 따른 갈 수 있는 방향의 가지수를 저장한다.
-#   
+
+def doCheck(d):
+    pass
+
+def notCheck(d):
+    pass
+
+
+cctv_loc = []
+for i in range(N):
+    for j in range(M):
+        if 1 <= BRD[i][j] < 6:
+            cctv_loc.append((i,j))
+
