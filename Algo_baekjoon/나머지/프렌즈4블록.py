@@ -24,10 +24,10 @@ def solution(m, n, board):
                     newR = curR + d[0]
                     newC = curC + d[1]
                     q.append((newR, newC, Board[newR][newC]))
-                    if Board[newR][newC] == 0:
-                        answer += 1
-                if Board[curR][curC] == 0:
+                    Board[newR][newC] == 0
                     answer += 1
+                Board[curR][curC] == 0
+                answer += 1
         return isRemoved
 
     ## 제거 후 원소들 내리는 함수
