@@ -29,7 +29,7 @@
 def solution(s):
 
     s = Counter(re.findall('\d+', s))
-    print(s)
+    # 가장 많이 나온 원소가 가장 첫 번째로 들어갔던 원소...
     return list(map(int, [k for k, v in sorted(s.items(), key=lambda x: x[1], reverse=True)]))
 
 import re
