@@ -7,11 +7,13 @@ M, N = map(int, input().split())
 BRD = []
 for m in range(M):
     BRD.append(list(map(int, input().split())))
+
+# r,c 까지 오는데 경로 수
 count = [[0 for _ in range(N)] for _ in range(M)]
 count[0][0] = 1
 q = []
 # 시작점 추가
-heapq.heappush(q, (BRD[0][0],0,0))
+heapq.heappush(q, (-BRD[0][0],0,0))
 # 우선순위큐를 사용하는 이유는 하나의 노드를 가는데
 # 예를 들어 20을 가는데 경로가 
 # 32 -> 20 이 있고, 32 -> 30 -> 25 -> 20 이 있는데,
@@ -30,12 +32,18 @@ while q:
     for d in [(1,0), (0,1), (0,-1), (-1,0)]:
         nr = r + d[0]
         nc = c + d[1]
+        # 현재보다 작은 값일 경우
         if 0 <= nr < M and 0 <= nc < N and BRD[r][c] > BRD[nr][nc]:
+            # 만약 다음 노드의 값이 0이 아닐 경우, 이미 방문한 노드이기 때문에
+            # 중복탐색을 방지하기 위해 값을 업데이트만 하고 q에는 넣지 않는다.
             if count[nr][nc] != 0:
                 count[nr][nc] += count[r][c]
                 continue
+
             count[nr][nc] += count[r][c]
-            heapq.heappush(q, (BRD[nr][nc], nr, nc))
+            heapq.heappush(q, (-BRD[nr][nc], nr, nc))
+for i in range(len(count)):
+    print(*count[i])
 print(count[M-1][N-1])
 
 ############### 답안 코드 (dfs + dp) ###################
