@@ -32,6 +32,7 @@ def solution(n, edge):
                 visited[node] = 0
         return
     visited[1] = 1
+    lines[1] = 0
     dfs(1, 0)
     max_l = 0
     for v in lines:
