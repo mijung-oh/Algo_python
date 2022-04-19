@@ -9,24 +9,19 @@ for n in range(N):
     r, c = map(int, input().split())
     matrix.append((r,c))
 
-while len(matrix) > 1:
-    min_r = 999999
-    min_idx = 0
-    for i in range(len(matrix)-1):
-        r, c, rr = matrix[i][0], matrix[i][1], matrix[i+1][1]
-        if r * c * rr < min_r:
-            min_idx = i
-            min_r = r * c * rr
-    result += min_r
-    matrix2 = []
-    for i in range(len(matrix)):
-        if i == min_idx:
-            matrix2.append((matrix[i][0], matrix[i+1][1]))
-            continue
-        if i == min_idx + 1:
-            continue
-        matrix2.append(matrix[i])
-    matrix = matrix2
-print(result)
+dp = [[2 ** 31] * N for _ in range(N)]
+for i in range(N):
+    dp[i][i] = 0
 
-    
+for i in range(1, N): # 행렬 곱하기 개수
+    for j in range(N-i): # 행렬 곱셈 시작
+        minR = minC = 0
+        for k in range(j, j+i):
+            # 00 12 = A * BC
+            # 01 22 = AB * C
+            left = (matrix[j][0], matrix[k][1])
+            right = (matrix[k+1][0], matrix[i+j][1])
+            sub_sum = left[0] * left[1] * right[1]
+            dp[j][j+i] = min(dp[j][j+i], dp[j][k] + dp[k+1][i+j] + sub_sum)
+print(dp[0][N-1])
+        
