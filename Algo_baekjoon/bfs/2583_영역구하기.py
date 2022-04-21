@@ -12,13 +12,17 @@ def bfs(r, c):
     global M, N
     q = deque()
     q.append((r,c))
+    size = 0
+    BRD[r][c] = 1
     while q:
         cur_r, cur_c = q.popleft()
+        size += 1
         for d in [(1,0), (0,1), (-1,0), (0,-1)]:
             nr, nc = cur_r + d[0], cur_c + d[1]
             if 0 <= nr < N and 0 <= nc < M and not BRD[nr][nc]:
                 BRD[nr][nc] = 1
                 q.append((nr, nc))
+    return size
 
 
 # 영역 칠하기
@@ -30,10 +34,13 @@ for k in range(K):
                 BRD[i][j] = 1
 
 count = 0
+sizes = []
 # 영역 구하기
 for i in range(N):
     for j in range(M):
         if not BRD[i][j]:
-            bfs(i, j)
+            sizes.append(bfs(i, j))
             count += 1
 print(count)
+sizes.sort()
+print(*sizes)
