@@ -37,7 +37,12 @@ def dfs(bit, cur_len, cur_num):
     return dp[bit][cur_len][cur_num]
 
 for i in range(1, 10):
+    # 1 dfs(1000000000, 1, 9)
+    # dfs() 1000000000 | 1<<8 => 1000000000 |
+    # 123456789 => 1111111111
     cnt += dfs(1<<i, 1, i)
     cnt %= mod
+
+print(dp)
 
 print(cnt)
