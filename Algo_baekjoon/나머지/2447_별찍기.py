@@ -23,8 +23,10 @@ def f(n):
                 continue
             else:
                 for k in range(K):
-                    # 행씩 집어넣는다.
-                    Map[K*i+k][K*j:K*(j+1)] = Map[k][:K]
+                    for kk in range(K):
+                        Map[i*K+k][j*K+kk] = Map[k][kk]
+                    # # 행씩 집어넣는다.
+                    # Map[K*i+k][K*j:K*(j+1)] = Map[k][:K]
     
 
 f(N)
