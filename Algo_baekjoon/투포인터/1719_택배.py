@@ -1,27 +1,33 @@
-from glob import glob
-from re import L
+import sys
 
-
+from flask import g
+INF = sys.maxsize
 N, M = map(int, input().split())
-graph = [[-1] * (N+1) for _ in range(N+1)]
+graph = [[INF] * (N+1) for _ in range(N+1)]
+road = [[0 for _ in range(N+1)] for _ in range(N+1)]
+
 for m in range(M):
     a, b, c = map(int, input().split())
     graph[a][b] = c
     graph[b][a] = c
+    road[a][b] = b
+    road[b][a] = a
 
-def dijk(cur_node, dist):
-    global N
-    for node in range(1, N+1):
-        if graph[cur_node][node] and dist[node] == -1:
-            dist[node] = dist[cur_node] + graph[cur_node][node]
-            dijk(node, dist)
-    return dist
+# 자기 자신에게는 0
+for i in range(1, N+1):
+    graph[i][i] = 0
 
-for st in range(1, N+1):
-    graph[st][st] = 0
-    d = dijk(st, graph[st])
-    print(d)
-    graph[st] = d
-
-for i in range(N+1):
-    print(*graph[i])
+# 거쳐가는 점
+for k in range(1, N+1):
+    for i in range(1, N+1):
+        for j in range(1, N+1):
+            if graph[i][j] > graph[i][k] + graph[k][j]:
+                road[i][j] = road[i][k]
+                graph[i][j] = graph[i][k] + graph[k][j]
+for i in range(1, N+1):
+    for j in range(1, N+1):
+        if i == j:
+            print("-", end=" ")
+        else:
+            print(road[i][j], end=" ")
+    print()
