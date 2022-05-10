@@ -23,16 +23,13 @@ def solution(arr):
 
     while i != 1:
         aa = []
-        # 최대공약수 곱해주고
-        answer *= i
+        # answer *= i
         for a in arr:
             aa.append(a // i)
-            answer *= a // i
+            # answer *= a // i
         # arr 초기화 해주고
         arr = aa[::]
         # 최대공약수 초기화
         i = f(arr)
 
-    print(answer)
     return answer
-solution([1,2,3])
