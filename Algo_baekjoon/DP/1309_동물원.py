@@ -30,4 +30,4 @@ for i in range(1, N):
     dp[i][1] = (dp[i-1][0] + dp[i-1][2]) % MOD
     dp[i][2] = (dp[i-1][0] + dp[i-1][1]) % MOD
 
-print(sum(dp[N-1]))
+print(sum(dp[N-1])%MOD)
