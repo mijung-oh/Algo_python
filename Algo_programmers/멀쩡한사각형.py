@@ -1,9 +1,3 @@
+import math
 def solution(w,h):
-    answer = 1
-    # 가로: w, 세로: h
-    # 가운데를 지나는 직선 함수
-    def slope(x):
-        return (h*x) / w
-    
-    for i in range()
-    return answer
+    return (w*h) - (w+h-math.gcd(w,h))

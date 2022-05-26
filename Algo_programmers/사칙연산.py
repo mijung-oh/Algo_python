@@ -37,4 +37,4 @@ def solution(N, number):
             q.append(cur // N)
     print(dp[number])
     return answer
-solution(5, 31168)
+solution(4, 31)
