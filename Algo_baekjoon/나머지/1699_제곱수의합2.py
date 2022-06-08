@@ -18,4 +18,5 @@ for i in range(4, N+1):
         if dp[i-j*j]+ d[j*j] < dp[i]:
             dp[i] = dp[i-j*j]+1
         j += 1
+print(*dp)
 print(dp[N])
