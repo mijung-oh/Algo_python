@@ -32,9 +32,10 @@ def check(r, c, direction):
                 BRD[nr][nc] = '#'
                 r = nr
                 c = nc
+            else:
+                break
                 
 
-    pass
 # 감시영역 표시 지우기
 def nonCheck():
     pass
