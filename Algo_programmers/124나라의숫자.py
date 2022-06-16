@@ -1,11 +1,17 @@
 def solution(n):
-    answer = ''
-    q, r = 0, 0
-    q = n // 3
-    r = n % 3
-
-    lst = []
-    for i in range(1, )
-    return answer
-
-solution()
+    init_q = { 1:"1", 2:"2", 3:"4" }
+    init_r = { 0: "4", 1: "1", 2: "2" }
+    
+    def find(x):
+        print(x)
+        if x <= 3:
+            return init_q[x]
+        q = x // 3
+        r = x % 3
+        if r:
+            return find(q) + init_r[r]
+        else:
+            return find(q-1) + init_r[r]
+            
+    
+    return find(n)
