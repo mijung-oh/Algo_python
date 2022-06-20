@@ -31,7 +31,7 @@ def dfs(cnt):
     
     if sum(paper) == 0:
         return
-        
+
     # 만약 1이 없다면
     exist = False
     for r in range(10):
@@ -44,7 +44,6 @@ def dfs(cnt):
     
     if not exist:
         answer = min(answer, cnt)
-        print("ANSWER ==============", answer)
         return
 
     for r in range(10):
