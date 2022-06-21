@@ -162,16 +162,16 @@ def move(cnt, brd):
         for j in range(N):
             if brd[i][j] > result:
                 result = brd[i][j]
-    NEWBRD = copy.deepcopy(brd)
+    NEWBRD = [item[:] for item in brd]
     move(cnt+1, right(NEWBRD))
 
-    NEWBRD = copy.deepcopy(brd)
+    NEWBRD = [item[:] for item in brd]
     move(cnt+1, down(NEWBRD))
 
-    NEWBRD = copy.deepcopy(brd)
+    NEWBRD = [item[:] for item in brd]
     move(cnt+1, up(NEWBRD))
 
-    NEWBRD = copy.deepcopy(brd)
+    NEWBRD = [item[:] for item in brd]
     move(cnt+1, left(NEWBRD))
 
     return
