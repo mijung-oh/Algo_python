@@ -32,4 +32,4 @@ def solution(begin, target, words):
 
         return answer
     return 0
-print(solution("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"]))
+print(solution("hit", "cog", ["hot", "dot", "dog", "lot", "log", "hog", "cig"]))
