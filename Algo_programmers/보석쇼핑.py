@@ -43,7 +43,6 @@ def solution(gems):
     
     l = r = 0
     while l < N and r < N:
-        print(l, r, types)
         
         # 보석을 다 포함했을 경우
         if count == len(types):
