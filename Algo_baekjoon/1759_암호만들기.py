@@ -11,10 +11,16 @@ def dfs(cur_word):
     global L, C
     # 단어길이가 L이 되었을 때 모음이 한개이상 있는지 확인한다.
     if(len(cur_word) == L):
+        mo = 0
+        za = 0
         for word in cur_word:
             if word in ['a', 'e', 'i', 'o', 'u']:
-                print(''.join(cur_word))
-                return
+                mo += 1
+            else:
+                za += 1
+        if mo >= 1 and za >= 2:
+            print(''.join(cur_word))
+            return
     
     for idx, word in enumerate(words):
         if visited[idx]: continue

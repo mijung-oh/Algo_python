@@ -6,7 +6,6 @@ new_origin = []
 for o in origin:
     if o.isalpha():
         new_origin.append(o)
-print(new_origin)
 
 # 문자열찾기
 l = 0
