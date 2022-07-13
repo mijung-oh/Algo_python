@@ -11,5 +11,5 @@ def solution(lines):
         hour, minute, sec = time.split(":")
         end = float(sec)*1000
         st = float(sec) - work * 1000 + 1
-        print(st, end, work)
+
     return answer
